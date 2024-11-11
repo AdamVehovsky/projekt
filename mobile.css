@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-image img {
+    max-width: 90%;
+    margin-bottom: 15px;
+}
+
+.table-section table, .form-section form {
+    width: 90%;
+    margin: auto;
+}
