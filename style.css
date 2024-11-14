@@ -58,6 +58,19 @@ nav ul {
     text-align: center;
     padding: 3.125rem 1.25rem; 
 }
+.showcase::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('https://tse1.mm.bing.net/th?id=OIG4.pBMkVsGZSjD6Wr5SN_VF&pid=ImgGn');
+    background-size: cover;
+    background-position: center;
+    opacity: .2; 
+    z-index: -1;
+}
 
 .showcase h2 {
     font-size: 2em;
