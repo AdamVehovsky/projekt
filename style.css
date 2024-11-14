@@ -64,7 +64,13 @@ nav ul {
     margin: 0;
 }
 
-
+.wrapper
+        {
+        display: flex;
+        gap: 20px; 
+        justify-content: center;
+    
+}
 .content {
     padding: 1.25rem; 
     max-width: 70%;
@@ -156,7 +162,24 @@ nav ul {
     background-color: #3e3e3e;
 }
 
-
+.poznamky {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 8px;
+    width: 600px;
+    text-align: center;
+    height: 170px;
+    font-size: auto;
+}
+.poznamky h3 {
+    color: #a3e048;
+    font-size: 1.5em;
+    margin: 0 0 10px;
+}
+.poznamky p {
+    font-size: 1em;
+    margin: 0;
+}
 .cards {
     display: flex;
     flex-wrap: wrap;
