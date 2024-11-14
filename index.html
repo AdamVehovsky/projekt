@@ -1,109 +1,110 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="cs">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap" rel="stylesheet">
-    <title>Projekt</title>
-    <style>
-        *{
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
-        body {font-family: Verdana, Geneva, Tahoma, sans-serif;}
-
-        .navbar {
-            display: flex;
-            justify-content: right;
-            background-color: darkgray;
-            padding: 15px;
-            border-radius: 5px;
-            text-decoration: none;
-        }
-
-        .navbar ul {
-            display: flex;
-            list-style-type: none;
-            padding: 0;
-            margin: 0;
-        }
-
-        .navbar ul li {
-            margin: 0 10px;
-        }
-
-        .navbar ul li a {
-            padding: 0.3rem;
-            text-decoration: none;
-            color: black;
-            background-color: darkgray;
-            border-radius: 5px;
-        }
-
-        .navbar ul li a:hover {
-            background-color: aqua;
-        }
-
-        .l-heading {
-            font-size: 4rem;
-            margin-bottom: 0.75rem;
-            line-height: 1.1;
-        }
-
-        .lead{
-            font-size: 1.3rem;
-            margin-bottom: 2rem;
-        }
-
-        .btn{
-            display: inline-block;
-            color: #fff;
-            background-color: aqua;
-            padding: 10px 20px;
-            border-radius: 5px;
-            text-decoration: none;
-            font-weight: bold;
-        }
-
-        .btn:hover{
-            background-color: aquamarine;
-        }
-
-        #showcase{
-            background: #333 url("https://images.unsplash.com/photo-1697577418970-95d99b5a55cf?q=80&w=1896&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") no-repeat center center/cover;
-            height: 100vh;
-            color: #fff;
-        }
-
-        #showcase .showcase-content {
-            display: flex;
-            flex-direction: column;
-            text-align: center;
-            justify-content: center;
-            align-items: center;
-            height: 100%;
-            padding: 0 2rem;
-            background-color: rgba(0, 0, 0, 0.66);
-        }
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Umělá inteligence ve hrách</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <nav class="navbar">
+        <h1>Umělá inteligence ve hrách</h1>
         <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#Form">O nás</a></li>
+            <li><a href="#overview">Přehled</a></li>
+            <li><a href="#technologies">AI Technologie</a></li>
+            <li><a href="#examples">Příklady her</a></li>
             <li><a href="#contact">Kontakt</a></li>
         </ul>
     </nav>
 
-    <div id="showcase">
-        <div class="showcase-content">
-            <h1 class="l-heading">Umělá inteligence<br> plusy a mínusy ve hrách</h1>
-            <a href="#" class="btn">Chci vědět víc</a>
-        </div>
-    </div>
+    <header class="showcase">
+        <h2>Budoucnost herních technologií</h2>
+    </header>
 
-    Photo by <a href="https://unsplash.com/@omilaev?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Igor Omilaev</a> on <a href="https://unsplash.com/photos/a-computer-chip-with-the-letter-a-on-top-of-it-eGGFZ5X2LnA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+    <main class="content">
+        <div class="content-section-container">
+            <section id="dlss" class="content-section">
+                <h3>DLSS (Deep Learning Super Sampling)</h3>
+                <p>DLSS využívá umělou inteligenci k optimalizaci herního výkonu bez snížení kvality obrazu. Díky tomu dosáhnou hráči vyšší snímkové frekvence při vysokém rozlišení.</p>
+            </section>
+            
+            <section id="Ray Tracing" class="content-section">
+                <h3>Ray Tracing</h3>
+                <p>Ray tracing poskytuje realistické světelné efekty, stíny a odrazy, což výrazně zlepšuje vizuální kvalitu herního prostředí a činí ho pohlcujícím.</p>
+            </section>
+        
+            <section id="procedural-generation" class="content-section">
+                <h3>Procedurální generování</h3>
+                <p>Procedurální generování automaticky vytváří světy, úrovně a další herní prvky, což umožňuje hráčům zažít nový a jedinečný obsah při každém hraní.</p>
+            </section>
+        </div>
+
+        </section>
+        <section id="ai-comparison" class="content-section">
+            <h3>Porovnání AI Technologií</h3>
+            <p>DLSS, Ray Tracing a Proceduální generování jsou klíčové technologie pro zlepšení herního zážitku. Podívejte se na jejich porovnání v následující tabulce:</p>
+            <table class="comparison-table">
+                <thead>
+                    <tr>
+                        <th>Technologie</th>
+                        <th>DLSS (Deep Learning Super Sampling)</th>
+                        <th>Ray Tracing</th>
+                        <th>Proceduální generování</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Účel</strong></td>
+                        <td>Zlepšení výkonu a kvality obrazu pomocí AI upscalingu</td>
+                        <td>Realistické osvětlení a odrazy</td>
+                        <td>Automatické generování obsahu jako jsou světy a prostředí</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Podporované grafické karty</strong></td>
+                        <td>GeForce RTX 20xx a novější</td>
+                        <td>RTX, některé AMD a Intel karty</td>
+                        <td>Není závislé na konkrétní GPU</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Použité hry</strong></td>
+                        <td>Cyberpunk 2077, Control</td>
+                        <td>Control, Minecraft, Cyberpunk 2077</td>
+                        <td>No Man's Sky, Minecraft</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Výhody</strong></td>
+                        <td>Zvýšení výkonu, kvalitní obraz</td>
+                        <td>Fotorealistické osvětlení, vylepšená atmosféra</td>
+                        <td>Větší variabilita prostředí, obohacený svět</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Nevýhody</strong></td>
+                        <td>Vyžaduje výkonné grafické karty</td>
+                        <td>Vysoké nároky na výkon</td>
+                        <td>Náročnost na vývoj</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="examples" class="content-section">
+            <h3>Příklady her s AI technologiemi</h3>
+            <ul class="examples-list">
+                <li><strong>Metro exodus</strong> - Využití DLSS</li>
+                <li><strong>No Man's Sky</strong> - Proceduální generování světa</li>
+                <li><strong>Cyberpunk</strong> - Ray tracing pro realistické osvětlení</li>
+            </ul>
+        </section>
+
+        <section id="contact" class="content-section">
+            <h3>Kontakt</h3>
+            <p>Máte zájem o AI technologie ve hrách? Kontaktujte nás pro více informací.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Umělá inteligence ve hrách</p>
+    </footer>
+</body>
+</html>
