@@ -67,7 +67,6 @@ nav ul {
 
 .content {
     padding: 1.25rem; 
-    width: auto;
     max-width: 70%;
     margin: 0 auto;
     flex-direction: row;
@@ -83,6 +82,8 @@ nav ul {
     color: #d4d4d4;
     transition: transform 0.3s ease, background-color 0.3s ease;
     min-width: 250px; 
+    justify-content: space-around;
+    align-items: stretch;
 }
 #procedural-generation {
     margin-bottom: 20px;
@@ -103,8 +104,9 @@ nav ul {
 .content-section-container {
     display: flex;
     gap: 20px;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: stretch;
+
 }
 .content-section:hover {
     transform: translateY(-5px); 
