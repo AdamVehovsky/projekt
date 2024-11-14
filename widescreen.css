@@ -1,24 +1,23 @@
-body {
-    font-family: Verdana, sans-serif;
-}
 
-.navbar ul {
-    display: flex;
-    justify-content: flex-end;
-}
+@media (min-width: 1200px) {
+    .content {
+        max-width: 90%; 
+        padding: 2rem; 
+    }
 
-.info-section {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    margin: 2rem;
-}
+    .content-section-container {
+        gap: 60px;
+    }
 
-.info-image, .info-text {
-    width: 50%;
-}
+    .comparison-table {
+        font-size: 1.1em; 
+    }
 
-.table-section table, .form-section form {
-    width: 60%;
-    margin: auto;
+    .navbar ul {
+        gap: 2rem; 
+    }
+
+    .card {
+        width: calc(33.33% - 20px); 
+    }
 }
