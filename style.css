@@ -57,6 +57,7 @@ nav ul {
     color: #ff6700;
     text-align: center;
     padding: 3.125rem 1.25rem; 
+    margin-bottom: -25px;
 }
 .showcase::before {
     content: "";
